@@ -1,0 +1,9 @@
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+     background-color: steelblue;
+}
