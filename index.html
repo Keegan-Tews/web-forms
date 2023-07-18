@@ -31,6 +31,46 @@
             <input type="password" name="accountPW">
         </label>
 
+        <label>Why do you want to adopt a new pet?
+            <textarea name="applicantReason" rows="4" cols="50"></textarea>
+        </label>
+
+        <fieldset>
+            <legend class="checkbox">What types of animals are you interested in?</legend>
+            <label>Dogs
+                <input type="checkbox" value="dogs">
+                <span class="checkmark"></span>
+            </label>
+            <label>Cats 
+                <input type="checkbox" value="cats">
+                <span class="checkmark"></span>
+            </label>
+            <label>Snakes
+                <input type="checkbox" value="snakes">
+                <span class="checkmark"></span>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Are you interested in adopting special needs or elderly pets?</legend>
+
+            <label>Yes
+                <input type="radio" name="special" value="yes">
+            </label>
+
+            <label>No
+                <input type="radio" name="special" value="no">
+            </label>
+        </fieldset>
+
+        <label>How many hours a day will someone be home to keep a pet company?
+            <select name="hours">
+                <option value="few">less then 10</option>
+                <option value="some">10 to 16</option>
+                <option value="many">more then 16</option>
+            </select>
+        </label>
+
 
 
     </form>
